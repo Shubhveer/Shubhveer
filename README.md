@@ -1,164 +1,95 @@
-# Hi, I'm Shubhveer
+<h1 align="center">Hi, I'm Shubh Veerwani</h1>
 
-### 3rd-Year Computer Science & Artificial Intelligence / Machine Learning Student
+<p align="center">
+  <b>Student developer focused on machine learning and applied software</b><br>
+  I build practical, accessible tools. My current project is an AI assistant for farmers.
+</p>
 
-I build practical software projects that combine **Machine Learning, Python, Web Development, and real-world problem solving**.
-
-My focus is on taking projects beyond simple demonstrations and building systems that can be tested, deployed, and used in practical scenarios.
-
----
-
-## About Me
-
-- Computer Science student specializing in Artificial Intelligence & Machine Learning
-- Interested in Machine Learning, Applied AI, Python and Full-Stack Development
-- Building practical projects around agriculture, automation and intelligent decision-support systems
-- Learning by building complete systems from data and model development to deployment
-- Interested in internships, collaborative projects and applied software/ML development
+<p align="center">
+  <a href="https://github.com/Shubhveer/smart-irrigation"><img alt="Featured project" src="https://img.shields.io/badge/Featured-Farm%20Saathi-2E7D32?style=flat"></a>
+  <a href="https://smart-irrigation-pi6v.onrender.com"><img alt="Live demo" src="https://img.shields.io/badge/Live%20demo-Render-46E3B7?style=flat&logo=render&logoColor=white"></a>
+  <a href="https://github.com/Shubhveer?tab=repositories"><img alt="Repositories" src="https://img.shields.io/badge/Repositories-3-181717?style=flat&logo=github"></a>
+</p>
 
 ---
 
-## Featured Project
+## About me
 
-### Farm Saathi — Smart Irrigation & Farmer Assistance Platform
+I am a student learning by building end-to-end projects: collecting and exploring real data, training and evaluating models,
+and shipping them as working applications. I care about three things in particular:
 
-A farmer-focused technology platform developed around the idea of making agricultural information easier to access and understand.
+- **Honest evaluation.** I measure models carefully and write down their limits, not just their best score.
+- **Accessible software.** Interfaces in plain language and in the user's own language.
+- **Reliable code.** Clear structure, automated tests and reproducible training.
 
-The project started as a smart irrigation application and has been expanded toward a broader farmer-assistance platform.
+## Featured project
 
-### Current capabilities
+### [Farm Saathi: Smart Irrigation & Crop Advisory](https://github.com/Shubhveer/smart-irrigation)
 
-- Smart irrigation prediction
-- Live weather integration
-- 7-day irrigation planning
-- Soil guidance
-- Crop health assistance
-- Fertilizer guidance
-- Pest observation guidance
-- Plant and soil photo screening
-- Government agriculture information
-- Prediction history
-- Excel report generation
-- Multilingual interface
-- PWA / mobile-oriented support
+A web application that tells a farmer, in plain language, whether to water today, and what is wrong with a leaf from a photo.
 
-**Repository:**  
-https://github.com/Shubhveer/smart-irrigation
+- **Irrigation advice** from live weather, soil type and crop stage, with a 7-day outlook and downloadable Excel reports
+- **Plant disease detection** from a leaf photo: 38 classes across 14 crops, MobileNetV3 exported to ONNX (17 MB, CPU inference),
+  97.6% accuracy on a held-out split of PlantVillage, with the dataset's limits analysed in a dedicated EDA notebook
+- **English, Hindi and Marathi** across the whole site, with automated tests that fail if any text is left untranslated
+- **Layered Flask backend** (routes, services, database) deployed on Render with PostgreSQL
 
-**Live Application:**  
-https://smart-irrigation-pi6v.onrender.com
+`Python` `Flask` `scikit-learn` `ONNX Runtime` `SQLAlchemy` `PostgreSQL` `Jupyter`
 
----
+[Read the project](https://github.com/Shubhveer/smart-irrigation) · [Try the live demo](https://smart-irrigation-pi6v.onrender.com)
 
-## Technical Interests
+## Other work
 
-### Programming
-- Python
-- C
-- Java
-- JavaScript
+| Repository | What it is | Stack |
+|---|---|---|
+| [**machine-learning-labs**](https://github.com/Shubhveer/machine-learning-labs) | Machine-learning lab practicals: data preprocessing (Titanic), regression with Ridge and Lasso (USA Housing), concept learning with Find-S and Candidate Elimination, and decision-tree classification with ROC-AUC, GridSearchCV and cross-validation (Wine Quality) | Python, Jupyter, pandas, NumPy, scikit-learn, Matplotlib, Seaborn |
+| [**Code-Breakrs-**](https://github.com/Shubhveer/Code-Breakrs-) | Registration form web page for The CodeBreakers Club | HTML |
 
-### Machine Learning & Data Science
-- Machine Learning
-- scikit-learn
-- pandas
-- NumPy
-- Jupyter Notebook
-- Exploratory Data Analysis
-- Model evaluation
+## Tech stack
 
-### Web Development
-- Flask
-- Jinja2
-- HTML
-- CSS
-- JavaScript
-- REST/API integration
+**Languages**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
 
-### Databases
-- PostgreSQL
-- SQLAlchemy
-- SQLite
+**Machine learning and data**
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX%20Runtime-005CED?style=flat&logo=onnx&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat)
 
-### Deployment & Tools
-- Git
-- GitHub
-- Render
-- Gunicorn
-- VS Code
-- Jupyter Notebook
+**Web and backend**
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=flat&logo=gunicorn&logoColor=white)
 
-### Mobile / Application Development
-- Flutter
-- Android development
-- Progressive Web Apps
+**Tools**
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=white)
 
----
+## What I'm working on next
 
-## Projects
+- Replacing the irrigation model's training data with a real dataset and evaluating it properly
+- Testing the disease model on real field photographs, not only lab images
+- Connecting a Flutter mobile app to the Farm Saathi API
 
-| Project | Description |
-|---|---|
-| **Farm Saathi / Smart Irrigation** | ML-based agricultural decision-support platform for irrigation and farmer assistance |
-| **Machine Learning Labs** | Machine learning coursework, experiments and practical implementations |
-| **Code-Breakrs** | Programming and development work |
+## Get in touch
 
----
+- GitHub: [@Shubhveer](https://github.com/Shubhveer)
+- Questions or suggestions about a project: open an issue in that repository
 
-## What I Like Building
+<!--
+  Add your own links here when you are ready, for example:
+  - LinkedIn: https://www.linkedin.com/in/your-handle
+  - Email: your.name@example.com
+-->
 
-I am particularly interested in projects that connect software with real-world problems.
-
-Some areas I explore:
-
-- Agriculture Technology
-- Machine Learning
-- Intelligent Decision Support
-- IoT and Embedded Systems
-- Computer Vision
-- Automation
-- Data Analysis
-- Full-Stack Applications
-
----
-
-## Current Learning
-
-Currently strengthening my skills in:
-
-- Machine Learning
-- Data Structures & Algorithms
-- Artificial Intelligence
-- Backend Development
-- Database Systems
-- Computer Networks
-- Embedded Systems
-- Software Engineering
-- Deployment and production development
-
----
-
-## GitHub
-
-I use GitHub to document projects, experiments, coursework and ongoing development.
-
-**Profile:**  
-https://github.com/Shubhveer
-
-**Featured Repository:**  
-https://github.com/Shubhveer/smart-irrigation
-
----
-
-## Let's Connect
-
-I'm interested in:
-
-- Software Development Internships
-- Machine Learning Internships
-- Applied AI Projects
-- Open-source collaboration
-- Student technology projects
-- Real-world problem solving
-
-Thanks for visiting my profile.
+<p align="center"><sub>Thanks for visiting.</sub></p>
